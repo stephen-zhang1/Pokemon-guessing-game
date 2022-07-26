@@ -50,6 +50,8 @@ function addAnswerHandler() {
     console.log(e.target.classList.value);
     if (e.target.classList.value === "correct") {
         counter++;
+    } else if(e.target.classList.value == "incorrect" && counter >= 1) {
+        counter--;
     }
     score.innerHTML = "Score:" + counter;
     console.log(counter);

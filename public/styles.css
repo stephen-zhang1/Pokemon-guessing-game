@@ -8,7 +8,7 @@ body {
     position: relative;
     width: 575px;
     background-image: url('https://res.cloudinary.com/dzynqn10l/image/upload/v1633196203/Msc/pokemon-bg_ig4uv3.jpg');
-    background-size: 110%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   
@@ -24,17 +24,17 @@ body {
     color: #fff;
     position: absolute;
     background-color: #dd1716;
-    right: 25px;
-    width: 170px;
-    height: 170px;
-    top: 60px;
+    right: 30px;
+    width: 190px;
+    height: 180px;
+    top: 40px;
     border-radius: 50%;
   }
   
   #text-overlay {
     position: absolute;
-    right: 20px;
-    top: 100px;
+    right: 30px;
+    top: 90px;
     background-color: #ffcb02;
     border: solid 7px #2c70ae;
     padding: 20px;
@@ -88,8 +88,9 @@ body {
   
   #play {
     position: absolute;
-    top: -56px;
+    top: -25px;
     left: 39px;
+
   }
   
   #pokeball {
@@ -142,4 +143,9 @@ body {
     85% { transform: rotate(6deg); }
     95% { transform: rotate(-6deg); }
     100% { transform: rotate(0deg); }
+  }
+
+  #score {
+    font-size: 6rem;
+    font-weight: bold;
   }
